@@ -61,6 +61,9 @@ namespace LuskPaymentGatewayServices.Models.Responses
 
         [JsonProperty("card")] 
         public CardModel? Card { get; set; }
+
+        [JsonProperty("events")] 
+        public EventModel[] Events { get; set; } = null!;
     }
 
     public class EventModel

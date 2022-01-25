@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LuskPaymentGatewayApi</name>
+    </assembly>
+    <members>
+        <member name="T:LuskPaymentGatewayApi.Controllers.PaymentController">
+            <summary>
+            ThePay gateway controller
+            </summary>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.#ctor(LuskPaymentGatewayServices.Services.Interfaces.IPaymentClient)">
+            <inheritdoc />
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.GetPaymentMethods">
+            <summary>
+                Lists all available payment methods for your project.
+                Allowed methods settings can be changed in your ThePay merchant account.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.GetPayments(LuskPaymentGatewayServices.Models.Requests.GetPaymentsRequest)">
+            <summary>
+                Returns a list of payments on a project.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.GetPaymentDetail(System.String)">
+            <summary>
+                This resource represents one particular payment identified by its payment_uid.
+            </summary>
+            <param name="uid">UID of the payment</param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.CreatePayment(LuskPaymentGatewayServices.Models.Requests.CreatePaymentRequest)">
+            <summary>
+                Creates new payment instance and returns URL to the payment process as well as URL to the payment detail page
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.ChangePaymentMethod(System.String,LuskPaymentGatewayServices.Models.Requests.ChangePaymentMethodRequest)">
+            <summary>
+                This endpoint will change the current payment method, with which the payment can be paid.
+                Payment method change is available only for payments with state waiting_for_payment, described here.
+                The current payment state can be verified by calling the endpoint get payment detail.
+            </summary>
+            <param name="uid">UID of the payment</param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.InvalidatePayment(System.String)">
+            <summary>
+                This endpoint will invalidate a payment if it is in waiting_for_payment state.
+                Otherwise a bad request exception will be returned.
+            </summary>
+            <param name="uid">UID of the payment</param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.RealizePreauthPayment(System.String,LuskPaymentGatewayServices.Models.Requests.RealizePreauthPaymentRequest)">
+            <summary>
+                This endpoint will realize a preauthorized payment.
+            </summary>
+            <param name="uid">UID of the payment</param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.CancelPreauthPayment(System.String)">
+            <summary>
+                This endpoint will cancel preauthorized payment.
+            </summary>
+            <param name="uid">UID of the payment</param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.RealizeRegularSubPayment(System.String,LuskPaymentGatewayServices.Models.Requests.RegularSubRequest)">
+            <summary>
+                This endpoint will realize new paid payment for the same subscription as its parent payment.
+                Through this endpoint, realization of subscription payment can be only done once per given period and payment
+                amount can't be changed.
+            </summary>
+            <param name="parentId">UID of payment which initialized this subscription.</param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.RealizeUsageBasedSubPayment(System.String,LuskPaymentGatewayServices.Models.Requests.UsageBasedRequest)">
+            <summary>
+                This endpoint will realize new paid payment for the same subscription as its parent payment
+                with changeable price for diferent amount of shipped products or provided services.
+                Through this endpoint, realization of subscription payment can be only done once per given period.
+            </summary>
+            <param name="parentId">UID of payment which initialized this subscription.</param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.RealizeIrregularSubPayment(System.String,LuskPaymentGatewayServices.Models.Requests.IrregularSubRequest)">
+            <summary>
+                This endpoint will realize new paid payment for the same subscription as its parent payment.
+                This endpoint should be used in case the payment intervals are not known beforehand and will be thus irregular.
+                When using this endpoint, the payment amount can't be changed.
+            </summary>
+            <param name="parentId">UID of payment which initialized this subscription.</param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.RealizePaymentBySavedAuth(System.String,LuskPaymentGatewayServices.Models.Requests.RealizeBySavedAuthRequest)">
+            <summary>
+                This endpoint will realize new paid payment by same authorization which is save in parent payment.
+            </summary>
+            <param name="parentId">UID of payment with saved authorization</param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.GetPaymentRefundInfo(System.String)">
+            <summary>
+                Returns information about payment refund.
+            </summary>
+            <param name="uid">UID of the payment</param>
+            <returns></returns>
+        </member>
+        <member name="M:LuskPaymentGatewayApi.Controllers.PaymentController.RequestPaymentRefund(System.String,LuskPaymentGatewayServices.Models.Requests.PaymentRefundRequest)">
+            <summary>
+                This endpoint will create a request for automatic refund of a payment.
+            </summary>
+            <param name="uid">UID of the payment</param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

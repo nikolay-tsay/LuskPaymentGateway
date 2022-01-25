@@ -20,7 +20,7 @@ namespace LuskPaymentGatewayServices.Models.Requests
         public PaymentMethodCode PaymentMethodCode { get; set; }
 
         [JsonProperty("amount")] 
-        public int Amount { get; set; }
+        public uint Amount { get; set; }
 
         [JsonProperty("currency_code")] 
         public string CurrencyCode { get; set; } = null!;
