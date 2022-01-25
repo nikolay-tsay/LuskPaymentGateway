@@ -46,3 +46,5 @@ C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayApi\bin
 C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayApi\bin\Debug\net5.0\TestDataLibrary.pdb
 C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayApi\bin\Debug\net5.0\LuskPaymentGatewayApi.xml
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayApi\obj\Debug\net5.0\LuskPaymentGatewayApi.xml
