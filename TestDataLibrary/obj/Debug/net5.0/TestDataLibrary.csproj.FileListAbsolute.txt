@@ -1,0 +1,15 @@
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\bin\Debug\net5.0\TestDataLibrary.deps.json
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\bin\Debug\net5.0\TestDataLibrary.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\bin\Debug\net5.0\ref\TestDataLibrary.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\bin\Debug\net5.0\TestDataLibrary.pdb
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\bin\Debug\net5.0\LuskPaymentGatewayServices.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\bin\Debug\net5.0\LuskPaymentGatewayServices.pdb
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\TestDataLibrary.csproj.AssemblyReference.cache
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\TestDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\TestDataLibrary.AssemblyInfoInputs.cache
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\TestDataLibrary.AssemblyInfo.cs
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\TestDataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\TestDataLibrary.csproj.CopyComplete
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\TestDataLibrary.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\ref\TestDataLibrary.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\TestDataLibrary\obj\Debug\net5.0\TestDataLibrary.pdb

@@ -1,0 +1,12 @@
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\bin\Debug\net5.0\LuskPaymentGatewayServices.deps.json
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\bin\Debug\net5.0\LuskPaymentGatewayServices.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\bin\Debug\net5.0\ref\LuskPaymentGatewayServices.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\bin\Debug\net5.0\LuskPaymentGatewayServices.pdb
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\obj\Debug\net5.0\LuskPaymentGatewayServices.csproj.AssemblyReference.cache
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\obj\Debug\net5.0\LuskPaymentGatewayServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\obj\Debug\net5.0\LuskPaymentGatewayServices.AssemblyInfoInputs.cache
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\obj\Debug\net5.0\LuskPaymentGatewayServices.AssemblyInfo.cs
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\obj\Debug\net5.0\LuskPaymentGatewayServices.csproj.CoreCompileInputs.cache
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\obj\Debug\net5.0\LuskPaymentGatewayServices.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\obj\Debug\net5.0\ref\LuskPaymentGatewayServices.dll
+C:\Users\tsayn\Desktop\All\Projects\LuskPaymentGateway\LuskPaymentGatewayServices\obj\Debug\net5.0\LuskPaymentGatewayServices.pdb
